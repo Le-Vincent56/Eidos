@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Eidos.Events
+namespace Eidos.EventBus
 {
     public static class EventBus<T> where T : IEvent
     {

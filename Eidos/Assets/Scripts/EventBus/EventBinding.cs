@@ -1,6 +1,6 @@
 using System;
 
-namespace Eidos.Events
+namespace Eidos.EventBus
 {
     internal interface IEventBinding<T>
     {

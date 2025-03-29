@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 
@@ -7,12 +9,16 @@ namespace Eidos.Scenes
     {
         [Header("Scenes")]
         [SerializeField] private SceneGroupData sceneGroupData;
+
+        [Header("Loading")]
         private bool isLoading;
+
 
         public SceneGroupManager Manager;
         public SceneGroup[] SceneGroups { get => sceneGroupData.SceneGroups; }
 
         public bool IsLoading { get => isLoading; }
+
 
         private void Awake()
         {
@@ -39,6 +45,7 @@ namespace Eidos.Scenes
             HandleLoading(true);
 
             await Manager.LoadScenes(index, sceneGroupData.SceneGroups[index], progress);
+            
         }
 
         /// <summary>

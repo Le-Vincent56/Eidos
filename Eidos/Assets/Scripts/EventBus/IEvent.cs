@@ -1,4 +1,4 @@
-namespace Eidos.Events
+namespace Eidos.EventBus
 {
     public interface IEvent { }
 }
