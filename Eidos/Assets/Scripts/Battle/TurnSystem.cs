@@ -16,7 +16,7 @@ namespace Eidos.Battles
         public int RESOLVE { get => 3; }
         public int END { get => 4; }
 
-        private void Awake()
+        private void Start()
         {
             // Set up the state machine
             SetupStateMachine();
