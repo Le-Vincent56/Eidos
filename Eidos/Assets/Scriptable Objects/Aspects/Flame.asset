@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b656f7af5bc40e94294fe527528e2542, type: 3}
+  m_Name: Flame
+  m_EditorClassIdentifier: 
+  Name: Flame
+  Resistances:
+  - {fileID: 11400000, guid: b3ff10c2a6c9ed746ad9ae790e8ffb77, type: 2}
+  - {fileID: 11400000, guid: b074a63c97174434cb9bb6ab730f5061, type: 2}
+  - {fileID: 11400000, guid: f49cc5228d7fe084096839f7793d924d, type: 2}
+  Vulnerabilities:
+  - {fileID: 11400000, guid: cf27cfabe5cfcb34a828aa11f7797b65, type: 2}
+  - {fileID: 11400000, guid: f01c6074c3cd82c4f9a0a1fc79fe724a, type: 2}
+  - {fileID: 11400000, guid: c9f5ef6400a2cae489ba207ac2a6e9fd, type: 2}

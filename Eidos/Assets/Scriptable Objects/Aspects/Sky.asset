@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b656f7af5bc40e94294fe527528e2542, type: 3}
+  m_Name: Sky
+  m_EditorClassIdentifier: 
+  Name: Sky
+  Resistances:
+  - {fileID: 11400000, guid: c69cf34caaf8a064a99d22b47390f8a2, type: 2}
+  - {fileID: 11400000, guid: 944044bd0bb163e49ba70056a595c154, type: 2}
+  - {fileID: 11400000, guid: 97204fc6414cb1a46b688b32c8b7b686, type: 2}
+  Vulnerabilities:
+  - {fileID: 11400000, guid: b074a63c97174434cb9bb6ab730f5061, type: 2}
+  - {fileID: 11400000, guid: f49cc5228d7fe084096839f7793d924d, type: 2}
+  - {fileID: 11400000, guid: f01c6074c3cd82c4f9a0a1fc79fe724a, type: 2}
