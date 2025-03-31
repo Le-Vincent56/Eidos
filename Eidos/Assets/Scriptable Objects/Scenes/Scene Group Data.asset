@@ -12,11 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c60ff357bc6d9d4ca0d919c362ea42a, type: 3}
   m_Name: Scene Group Data
   m_EditorClassIdentifier: 
-  InitialScene: 0
+  InitialScene: 1
   SceneGroups:
   - GroupName: Battle Test
     Scenes:
     - Reference:
         asset: {fileID: 102900000, guid: c78910d0882539048a3b31e44f377294, type: 3}
         guid: c78910d0882539048a3b31e44f377294
+      SceneType: 0
+  - GroupName: Movement Test
+    Scenes:
+    - Reference:
+        asset: {fileID: 102900000, guid: 869ce2d4671ee7e4185c2bb52d9ec7cd, type: 3}
+        guid: 869ce2d4671ee7e4185c2bb52d9ec7cd
       SceneType: 0
