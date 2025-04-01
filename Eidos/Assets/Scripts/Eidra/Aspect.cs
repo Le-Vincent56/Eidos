@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Eidos.Eidra
+namespace Eidos.Eidras
 {
     [CreateAssetMenu(fileName = "Aspect", menuName = "Eidra/Aspect")]
     public class Aspect : ScriptableObject

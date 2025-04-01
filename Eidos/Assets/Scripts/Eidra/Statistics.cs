@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Eidos.Eidra
+namespace Eidos.Eidras
 {
     public enum Stat
     {

@@ -1,7 +1,7 @@
 using NUnit.Framework;
 using UnityEngine;
 
-namespace Eidos.Eidra
+namespace Eidos.Eidras
 {
     public class Eidra : MonoBehaviour
     {

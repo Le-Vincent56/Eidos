@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a84340d55b18944bad0268a4c2bf258, type: 3}
+  m_Name: Egomas
+  m_EditorClassIdentifier: 
+  CatalystName: Egomas
+  Eidras:
+  - {fileID: 11400000, guid: c333fd4df73daec46801c644e96d818e, type: 2}
+  - {fileID: 11400000, guid: 014ac4ce569c2564d9a931a066b00642, type: 2}
+  - {fileID: 11400000, guid: ff8b5a899080698448df8930730ce22a, type: 2}
+  - {fileID: 11400000, guid: 29967c7fb89a2bd44b8fa2dc0c30dbd7, type: 2}

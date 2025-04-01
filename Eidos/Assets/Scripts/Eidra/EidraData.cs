@@ -1,8 +1,7 @@
-using Eidos.Eidra;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Eidos
+namespace Eidos.Eidras
 {
     [CreateAssetMenu(fileName = "EidraData", menuName = "Eidra/Data")]
     public class EidraData : ScriptableObject

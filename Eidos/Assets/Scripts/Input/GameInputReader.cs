@@ -41,8 +41,6 @@ namespace Eidos.Input
         /// </summary>
         public void Disable() => inputActions.Disable();
 
-
-
         public void OnMove(InputAction.CallbackContext context)
         {
             // Get the raw movement input from the control
@@ -52,6 +50,25 @@ namespace Eidos.Input
             NormalizedInput = rawMovementInput.normalized;
         }
 
-        public void OnInteract(InputAction.CallbackContext context) { }
+        public void OnInteract(InputAction.CallbackContext context) => PhaseInvoker(context.phase, Interact);
+
+        /// <summary>
+        /// Invoke based on the context phase
+        /// </summary>
+        private void PhaseInvoker(InputActionPhase contextPhase, Action<bool> onInput)
+        {
+            // Check the context phase
+            switch (contextPhase)
+            {
+                // If starting, invoke with true
+                case InputActionPhase.Started:
+                    onInput.Invoke(true);
+                    break;
+                // If canceled, invoke with false
+                case InputActionPhase.Canceled:
+                    onInput.Invoke(false);
+                    break;
+            }
+        }
     }
 }

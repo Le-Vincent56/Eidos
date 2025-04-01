@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Eidos.Eidra
+namespace Eidos.Eidras
 {
     [Serializable]
     public class AscensionData
